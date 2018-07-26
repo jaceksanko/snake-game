@@ -142,6 +142,7 @@ const collision = () => {
     checkCollision(snakeX, snakeY, walls)
   ) {
     collisionConditions();
+    restart();
     return;
   };
   moveBorderBox();
