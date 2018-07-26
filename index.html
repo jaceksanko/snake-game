@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Emakina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <div class='game'>
+        <h1 class="title">Snake</h1>
+        <div id='canvas' class="canvas">
+            <canvas width="500" height="500" id="canvas-box" class="canvas--box">
+                Tu jest canvas
+            </canvas>
+        </div>
+
+        <form action="#" id="newGame" class="newGame">
+
+            <h2>Wybierz labirynt</h2>
+            <label for="labyrinth1">
+                <input type="radio" name="labyrinth" id="labyrinth1" value="labyrinth1" checked> Labirynt 1 - jedno jabłko 1pkt
+            </label>
+            <label for="labyrinth2">
+                <input type="radio" name="labyrinth" id="labyrinth2" value="labyrinth2"> Labirynt 2 - jedno jabłko 2pkt
+            </label>
+            <label for="labyrinth3">
+                <input type="radio" name="labyrinth" id="labyrinth3" value="labyrinth3"> Labirynt 3 - jedno jabłko 3pkt
+            </label>
+            <label for="labyrinth4">
+                <input type="radio" name="labyrinth" id="labyrinth4" value="labyrinth4"> Labirynt 4 - jedno jabłko 4pkt
+            </label>
+            <label for="labyrinth5">
+                <input type="radio" name="labyrinth" id="labyrinth5" value="labyrinth5"> Labirynt 5 - jedno jabłko 5pkt
+            </label>
+
+            <h2>Przyśwpieszenie lub spowalnienie węża w "power upach" na ile sekund?</h2>
+            <label for="powerUpTime1">
+                <input type="radio" name="powerUpTime" id="powerUpTime1" value="3000" checked> 3 sekundy
+            </label>
+            <label for="powerUpTime2">
+                <input type="radio" name="powerUpTime" id="powerUpTime2" value="6000"> 6 sekund
+            </label>
+            <label for="powerUpTime3">
+                <input type="radio" name="powerUpTime" id="powerUpTime3" value="12000"> 12 sekund
+            </label>
+           
+            <h2>Wydłużenie lub skrucenie węża w "power upach" o ile kwadrtów?</h2>
+            <label for="powerUpLenght1">
+                <input type="radio" name="powerUpLenght" id="powerUpLenght1" value="2" checked> 2 kwadraty
+            </label>
+            <label for="powerUpLenght2">
+                <input type="radio" name="powerUpLenght" id="powerUpLenght2" value="3"> 3 kwadraty
+            </label>
+            <label for="powerUpLenght3">
+                <input type="radio" name="powerUpLenght" id="powerUpLenght3" value="4"> 4 kwadraty
+            </label>
+
+
+
+            <h2>Prędkość węża </h2>
+            <label for="speedScore1">
+                <input type="radio" name="speedScore" id="speedScore1" value="1" checked> 1 - dodatkowy 1 punkt za jabłko
+            </label>
+            <label for="speedScore2">
+                <input type="radio" name="speedScore" id="speedScore2" value="2"> 2 - dodatkowe 2 punkty za jabłko
+            </label>
+            <label for="speedScore3">
+                <input type="radio" name="speedScore" id="speedScore3" value="3"> 3 - dodatkowe 3 punkty za jabłko
+            </label>
+            <label for="speedScore4">
+                <input type="radio" name="speedScore" id="speedScore4" value="4"> 4 - dodatkowe 4 punkty za jabłko
+            </label>
+            <label for="speedScore5">
+                <input type="radio" name="speedScore" id="speedScore5" value="5"> 5 - dodatkowe 5 punktów za jabłko
+            </label>
+
+
+            <div>
+                <button type="submit" form="newGame" class="button newGame__button">
+                    Rozpocznij grę
+                </button>
+            </div>
+
+        </form>
+        <button id='btn' class="button game--restartGame">Rozpocznij od nowa</button>
+    </div>
+
+
+
+
+
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

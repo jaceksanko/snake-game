@@ -1,37 +1,11 @@
-.game {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
-}
+.game { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
 
-.canvas--box {
-  border: 2px solid black;
-}
+.canvas--box { border: 2px solid black; }
 
-.newGame {
-  width: 500px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-}
+.newGame { width: 500px; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
 
-.button {
-  margin: 20px;
-  padding: 10px;
-  background-color: brown;
-  border: 0;
-  color: white;
-}
+.button { margin: 20px; padding: 10px; background-color: brown; border: 0; color: white; }
 
-.canvas {
-  display: none;
-}
+.canvas { display: none; }
 
-.game--restartGame {
-  display: none;
-}
-/*# sourceMappingURL=style.css.map */
+.game--restartGame { display: none; }
